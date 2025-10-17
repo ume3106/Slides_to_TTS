@@ -22,7 +22,7 @@
 
 ### 1.1 プロジェクトの作成
 
-1. **Google Cloud Console** にアクセス
+1. **Google Cloud Console(https://console.cloud.google.com/)** にアクセス
 2. 上部の **プロジェクト選択**ドロップダウンをクリック
 3. **「新しいプロジェクト」** をクリック
 4. プロジェクト名を入力（例：`slides-tts-project`）
@@ -293,5 +293,6 @@ FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
 * ファイルの配置場所
 * Python 環境とパッケージのインストール状況
 * エラーメッセージの詳細
+
 
 
