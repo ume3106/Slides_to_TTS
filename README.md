@@ -46,7 +46,19 @@ Google Slides で各スライドのスピーカーノートに話す内容を記
 
 ### 2. プログラム実行
 
+作業フォルダに移動し、可能であれば仮想環境をアクティベートした状態で実行してください。
+
 ```bash
+# 1. 作業フォルダに移動 (Windowsの場合の例)
+cd C:\Users\社員番号\Slides_to_Vids
+
+# 2. 仮想環境をアクティベート (Windows/Mac/Linux)
+# Windows:
+# .\slides-tts-env\Scripts\activate
+# macOS/Linux:
+# source slides-tts-env/bin/activate
+
+# 3. プログラムを実行
 python generate_tts_from_slides.py
 ```
 
