@@ -14,7 +14,7 @@
 
 任意の場所に**作業フォルダ**を作成してください。
 
-**例**: `C:\Users\社員番号\Slides_to_Vids` フォルダを作成し、このフォルダにGitHubからダウンロードしたファイルを全て配置します。
+**例**: `C:\Users\社員番号\Slides_to_Vids` フォルダを作成し、このフォルダ内にGitHubからダウンロードしたファイルを全て配置します。
 
 ---
 
@@ -293,4 +293,5 @@ FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
 * ファイルの配置場所
 * Python 環境とパッケージのインストール状況
 * エラーメッセージの詳細
+
 
