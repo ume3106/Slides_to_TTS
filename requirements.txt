@@ -1,0 +1,13 @@
+# Google Cloud Text-to-Speech API
+google-cloud-texttospeech==2.16.3
+
+# Google API Client Library
+google-api-python-client==2.108.0
+
+# Google Auth Libraries
+google-auth==2.23.4
+google-auth-oauthlib==1.1.0
+google-auth-httplib2==0.1.1
+
+# その他の依存関係
+requests==2.31.0
