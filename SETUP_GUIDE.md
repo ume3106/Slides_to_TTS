@@ -129,10 +129,9 @@ Python 3.8 未満の場合は、Python 公式サイトから最新版をイン�
 システムの Python 環境を汚さないため、専用の仮想環境を作成することを推奨します。
 
 以下のコマンドを実行します。
-社員番号はご自身のものに置き換えてください。
+> ℹ️ 社員番号はご自身のものに置き換えてください。
 
 ```bash
-# 作業フォルダに移動（例）
 cd C:\Users\社員番号\Slides_to_Vids
 ```
 
@@ -308,6 +307,7 @@ FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
 * ファイルの配置場所
 * Python 環境とパッケージのインストール状況
 * エラーメッセージの詳細
+
 
 
 
