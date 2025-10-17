@@ -105,8 +105,6 @@
 ## ステップ4: Python 環境のセットアップ
 
 > **注意**: 以下は **コマンドプロンプト（Windows）** または **ターミナル（macOS/Linux）** で実行します。
->
-> **コマンド入力について**: `bash` という文字列は入力不要です。**コードブロック内のコマンドだけ**コピー&ペーストしてください。
 
 このツールは以下の Python ライブラリを使用します。
 
@@ -118,6 +116,7 @@
 ### 4.1 Python の確認
 
 まず、Python 3.8 以上がインストールされているか確認します。
+コマンドプロンプトで以下のコマンドを実行します。
 
 ```bash
 python --version
@@ -129,17 +128,31 @@ Python 3.8 未満の場合は、Python 公式サイトから最新版をイン�
 
 システムの Python 環境を汚さないため、専用の仮想環境を作成することを推奨します。
 
+以下のコマンドを実行します。
+社員番号はご自身のものに置き換えてください。
+
 ```bash
 # 作業フォルダに移動（例）
 cd C:\Users\社員番号\Slides_to_Vids
+```
 
-# 仮想環境を作成
+次に仮想環境を作成します。
+以下のコマンドを実行してください。
+
+```bash
 python -m venv slides-tts-env
+```
 
-# 仮想環境をアクティベート
-# Windows
+最後に仮想環境をアクティベートします。
+以下のコマンドを実行してください。
+
+```bash
 slides-tts-env\Scripts\activate
-# macOS/Linux
+```
+
+※macOS/Linuxの場合は以下のコマンドを実行してください。
+
+```bash
 source slides-tts-env/bin/activate
 ```
 
@@ -150,7 +163,6 @@ source slides-tts-env/bin/activate
 仮想環境をアクティベートした状態で、必要なライブラリをインストールします。
 
 ```bash
-# 必要なパッケージをインストール
 pip install -r requirements.txt
 ```
 
@@ -216,6 +228,9 @@ https://docs.google.com/presentation/d/1M_A-bC1234567890defGHIjklmNOpQR_S/edit#s
 ### 6.3 実行と初回認証
 
 1. コマンドプロンプト/ターミナルで `Slides_to_Vids` フォルダに移動し、**仮想環境がアクティベート**されていることを確認
+
+> ℹ️ 仮想環境がアクティベートされていると、プロンプトの先頭に `(slides-tts-env)` が表示されます。
+
 2. 以下のコマンドを実行
 
 ```bash
@@ -293,6 +308,7 @@ FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
 * ファイルの配置場所
 * Python 環境とパッケージのインストール状況
 * エラーメッセージの詳細
+
 
 
 
