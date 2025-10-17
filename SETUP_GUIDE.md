@@ -187,6 +187,7 @@ Slides_to_Vids/
 ├── generate_tts_from_slides.py    # メインプログラム
 ├── requirements.txt               # 依存関係
 ├── SETUP_GUIDE.md                 # このファイル
+├── README.md                      # READMEファイル
 ├── tts-key.json                   # ステップ3でダウンロードしたサービスアカウントキー
 ├── credentials.json               # ステップ4でダウンロードしたOAuth認証情報
 └── slides/                        # 出力フォルダ（ステップ7の実行時に自動作成）
@@ -307,6 +308,7 @@ FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
 * ファイルの配置場所
 * Python 環境とパッケージのインストール状況
 * エラーメッセージの詳細
+
 
 
 
