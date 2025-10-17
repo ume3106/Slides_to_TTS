@@ -7,8 +7,6 @@
 ## 前提条件
 
 * Python **3.8以上**がインストールされていること
-* **Googleアカウント**を持っていること
-* **Google Cloud Console**へのアクセス権限があること
 
 ---
 
@@ -295,3 +293,4 @@ FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
 * ファイルの配置場所
 * Python 環境とパッケージのインストール状況
 * エラーメッセージの詳細
+
