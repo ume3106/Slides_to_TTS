@@ -149,13 +149,13 @@ python -m venv slides-tts-env
 slides-tts-env\Scripts\activate
 ```
 
+> ℹ️ 仮想環境をアクティベートすると、プロンプトの先頭に `(slides-tts-env)` が表示されます。
+
 ※macOS/Linuxの場合は以下のコマンドを実行してください。
 
 ```bash
 source slides-tts-env/bin/activate
 ```
-
-> ℹ️ 仮想環境をアクティベートすると、プロンプトの先頭に `(slides-tts-env)` が表示されます。
 
 ### 4.3 依存関係のインストール
 
@@ -307,6 +307,7 @@ FileNotFoundError: [Errno 2] No such file or directory: 'credentials.json'
 * ファイルの配置場所
 * Python 環境とパッケージのインストール状況
 * エラーメッセージの詳細
+
 
 
 
